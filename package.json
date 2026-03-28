@@ -1,0 +1,52 @@
+{
+  "type": "module",
+  "name": "hr-portal-server",
+  "version": "1.0.0",
+  "description": "HR Portal Backend with Node.js and Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hr",
+    "portal",
+    "recruitment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.987.0",
+    "@aws-sdk/s3-request-presigner": "^3.987.0",
+    "@google-cloud/documentai": "^9.5.0",
+    "@google-cloud/language": "^7.2.1",
+    "@google/genai": "^1.33.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.13.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "docx": "^9.5.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.0",
+    "file-type": "^21.1.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
+    "libreoffice-convert": "^1.7.0",
+    "mammoth": "^1.11.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "nodemailer": "^6.9.7",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.4",
+    "pdfkit": "^0.17.2",
+    "speakeasy": "^2.0.0",
+    "tesseract.js": "^7.0.0",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
